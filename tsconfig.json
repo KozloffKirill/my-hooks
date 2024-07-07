@@ -5,7 +5,7 @@
     "strictNullChecks": true,
     "module": "ESNext", //https://webpack.js.org/configuration/configuration-languages/#typescript
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true, //https://webpack.js.org/configuration/configuration-languages/#typescript
