@@ -29,7 +29,7 @@ module.exports = {
   rules: {
     'prefer-const': 'warn',
     'prettier/prettier': 'warn',
-    'react/react-in-jsx-scope': false,
+    'react/react-in-jsx-scope': 0,
   },
   settings: {
     react: {
