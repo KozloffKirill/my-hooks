@@ -1,12 +1,36 @@
 .main {
   height: 100vh;
-  font-size: 2rem;
-}
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .header {
+    font-size: 3rem;
+    color: var(--text-color);
+  }
+
+  .description {
+    font-size: 2rem;
+    color: var(--additional-color);
+  }
+
+  .link {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    color: white;
+    background-color: var(--text-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: opacity var(--base-transition);
+
+    &:hover {
+      opacity: var(--hover-opacity);
+    }
+  }
 }

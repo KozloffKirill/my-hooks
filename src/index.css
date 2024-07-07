@@ -144,6 +144,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
+:root {
+  --text-color: rgb(15, 23, 42);
+  --additional-color: rgb(100, 116, 139);
+  --border-radius: 0.25rem;
+  --hover-opacity: 0.9;
+  --base-transition: 0.1s linear;
+}
+
 /* GLOBAL STYLES END */
 
 
