@@ -18,6 +18,7 @@ const config: (env: EnvType) => webpack.Configuration = ({
   output: {
     filename: 'main.[contenthash].js',
     path: path.resolve(__dirname, 'build'),
+    publicPath: '/',
     clean: true,
   },
   module: {
@@ -51,6 +52,7 @@ const config: (env: EnvType) => webpack.Configuration = ({
   devServer: {
     port,
     static: './build',
+    historyApiFallback: true,
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
