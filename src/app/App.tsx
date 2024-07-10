@@ -1,17 +1,22 @@
-import { Main } from '@widgets/main';
+import HomePage from '@pages/home';
+import HooksPage from '@pages/hooks';
+import RootPage from '@pages/root';
 import { FC } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from 'react-router-dom';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Main />,
-  },
-  {
-    path: 'hooks',
-    element: 'Hooks',
-  },
-]);
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootPage />}>
+      <Route path="/" element={<HomePage />} />
+      <Route path="hooks" element={<HooksPage />} />
+    </Route>
+  )
+);
 
 const App: FC = () => {
   return <RouterProvider router={router} />;
