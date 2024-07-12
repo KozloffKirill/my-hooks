@@ -1,0 +1,22 @@
+.linksList {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  .linkItem {
+    padding: 0.25rem;
+
+    a {
+      color: var(--additional-color);
+      transition: color var(--base-transition);
+
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+
+    .activeLink {
+      color: var(--text-color);
+    }
+  }
+}

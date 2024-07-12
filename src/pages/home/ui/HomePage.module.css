@@ -1,5 +1,7 @@
 .home {
   height: 100vh;
+  padding: 0 var(--horizontal-page-padding);
+  text-align: center;
 
   .container {
     display: flex;

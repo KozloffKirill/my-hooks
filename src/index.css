@@ -136,7 +136,7 @@ table {
 
 html {
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "Gill Sans", sans-serif;
   line-height: 1.2;
 }
 
@@ -154,6 +154,7 @@ a {
   --border-radius: 0.25rem;
   --hover-opacity: 0.9;
   --base-transition: 0.1s linear;
+  --horizontal-page-padding: 1.5rem;
 }
 
 /* GLOBAL STYLES END */

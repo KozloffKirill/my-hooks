@@ -1,7 +1,24 @@
 .navBar {
+  padding: 1.25em var(--horizontal-page-padding);
+
   .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
     .home {
-      
+      display: flex;
+      align-items: center;
+      color: var(--text-color);
+
+      .logo {
+        width: 32px;
+        height: 32px;
+      }
+
+      span {
+        font-weight: bolder;
+      }
     }
   }
 }
