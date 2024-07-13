@@ -1,28 +1,30 @@
 .home {
-  height: 100vh;
-  padding: 0 var(--horizontal-page-padding);
+  padding: 3rem var(--horizontal-page-padding) 3.5rem;
   text-align: center;
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .header {
+  .title {
     font-size: 3rem;
     color: var(--text-color);
   }
 
   .description {
     font-size: 2rem;
-    color: var(--additional-color);
+    color: var(--additional-text-color);
+  }
+}
+
+.getStarted {
+  padding: 4rem var(--horizontal-page-padding);
+  text-align: center;
+
+  .title {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.75rem;
   }
 
   .link {
-    margin: 1rem 0;
+    display: inline-block;
     font-size: 1.25rem;
     color: white;
     background-color: var(--text-color);

@@ -1,5 +1,5 @@
 .navBar {
-  padding: 1.25em var(--horizontal-page-padding);
+  padding: 1.25rem var(--horizontal-page-padding);
 
   .container {
     display: flex;

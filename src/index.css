@@ -150,11 +150,14 @@ a {
 
 :root {
   --text-color: rgb(15, 23, 42);
-  --additional-color: rgb(100, 116, 139);
-  --border-radius: 0.25rem;
+  --additional-text-color: rgb(100, 116, 139);
+  --additional-color: rgb(248, 250, 252);
   --hover-opacity: 0.9;
   --base-transition: 0.1s linear;
   --horizontal-page-padding: 1.5rem;
+  --border-radius: 0.25rem;
+  --border-color: rgb(226, 232, 240);
+  --border: 1px solid var(--border-color);
 }
 
 /* GLOBAL STYLES END */
