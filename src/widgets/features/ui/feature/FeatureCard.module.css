@@ -22,5 +22,6 @@
   
   .description {
     order: 3;
+    color: var(--additional-text-color)
   }
 }
