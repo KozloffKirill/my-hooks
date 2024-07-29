@@ -4,12 +4,13 @@ import guardIconSrc from '@shared/assets/guard.svg';
 import easyIconSrc from '@shared/assets/easy.svg';
 import codeIconSrc from '@shared/assets/code.svg';
 import sts from './Features.module.css';
+import { Title } from '@shared/title/ui/Title';
 
 export const Features: FC = () => {
   return (
     <section className={sts.features}>
       <div className={sts.container}>
-        <h2 className={sts.title}>Features</h2>
+        <Title level={2}>Features</Title>
         <ul className={sts.featuresList}>
           <li>
             <FeatureCard

@@ -2,12 +2,13 @@ import { FC } from 'react';
 import sts from './HomePage.module.css';
 import { Link } from 'react-router-dom';
 import { Features } from '@widgets/features/ui/features/Features';
+import { Title } from '@shared/title/ui/Title';
 
 export const HomePage: FC = () => {
   return (
     <>
       <section className={sts.home}>
-        <h1 className={sts.title}>My hooks</h1>
+        <Title level={1}>My hooks</Title>
         <p className={sts.description}>React hooks by Kozlov Kirill</p>
       </section>
       <Features />
