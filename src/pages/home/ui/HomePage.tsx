@@ -2,7 +2,7 @@ import { FC } from 'react';
 import sts from './HomePage.module.css';
 import { Link } from 'react-router-dom';
 import { Features } from '@widgets/features/ui/features/Features';
-import { Title } from '@shared/title/ui/Title';
+import { Title } from '@shared/title';
 
 export const HomePage: FC = () => {
   return (

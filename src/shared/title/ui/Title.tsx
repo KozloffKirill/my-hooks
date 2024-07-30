@@ -3,7 +3,7 @@ import { FC, InputHTMLAttributes } from 'react';
 import sts from './Title.module.css';
 import cn from 'classnames';
 
-type TitleT = {
+export type TitleT = {
   level: 1 | 2 | 3;
 } & InputHTMLAttributes<HTMLHeadingElement>;
 

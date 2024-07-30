@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import sts from './FeatureCard.module.css';
-import { Title } from '@shared/title/ui/Title';
+import { Title } from '@shared/title';
 
 export type FeatureCardT = {
   title: string;

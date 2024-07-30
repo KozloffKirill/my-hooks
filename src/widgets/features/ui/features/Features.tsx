@@ -4,7 +4,7 @@ import guardIconSrc from '@shared/assets/guard.svg';
 import easyIconSrc from '@shared/assets/easy.svg';
 import codeIconSrc from '@shared/assets/code.svg';
 import sts from './Features.module.css';
-import { Title } from '@shared/title/ui/Title';
+import { Title } from '@shared/title';
 
 export const Features: FC = () => {
   return (
